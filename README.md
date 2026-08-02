@@ -1,4 +1,4 @@
-# Assessing the conditioned distribution of citizen science phenological observations
+# Quantile-based diagnostics for conditioned citizen science phenological distributions
 The example code can be executed in the R environment. Due to the data access policies, the climate data used in this research must be obtained through an application to the Taiwan Climate Change Projection Information and Adaptation Knowledge Platform (TCCIP) (https://tccip.ncdr.nat.gov.tw/index_eng.aspx). Therefore, only the data format is provided here for demonstration purposes.
 
 To derive CSCI, please refer to https://github.com/brainbrian2000/Temperature_based_phenological_indicator_under_data_limited_condiction_ERA5_and_citizen_science, which hosts the code and data for the paper titled “Deriving exploratory temperature-based phenological indicators under data-limited conditions: integrating ERA5 and citizen science”.
