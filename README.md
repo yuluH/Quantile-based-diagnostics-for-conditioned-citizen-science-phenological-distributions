@@ -16,26 +16,32 @@ The repository includes simulated datasets, species-specific climate and phenolo
 .
 ├── QRF_phenology_analysis.R
 │
+├── QRF_comparison_figures.R
+│
 ├── Simulation/
 │   ├── grid_for_QRF_analysis_overlapping_regions.csv
 │   └── QRF_simulation_analysis.R
 │
 └── Data/
     ├── Hyla_chinensis/
+    │   ├── Hc.csv
     │   ├── VIP1/
     │   │   └── CSCI_Features_for_R_QRF.csv
     │   └── VIP08/
     │       └── CSCI_Features_for_R_QRF.csv
     │
     ├── Zhangixalus_moltrechti/
+    │   ├── Zm.csv
     │   ├── VIP1/
     │   └── VIP08/
     │
     ├── Fejervarya_limnocharis/
+    │   ├── Fl.csv
     │   ├── VIP1/
     │   └── VIP08/
     │
     └── Microhyla_fissipes/
+        ├── Mf.csv
         ├── VIP1/
         └── VIP08/
 ```
@@ -80,8 +86,12 @@ It contains the analytical workflow for:
 - Performing spatial block cross-validation (SCV).
 - Calculating ICP, MPIW, MAE, and pinball loss.
 
+## 4. Visualization Scripts
 
-## 4. Reproducibility
+The QRF_comparison_figures.R script, located in the repository's root directory, generates the comparative figures presented in the manuscript. All figures are exported as high-resolution PNG files (500 dpi) and vector-format PDFs. The manually compiled summary statistics are retained to reproduce the figures reported in the manuscript.
+
+
+## 5. Reproducibility
 
 The datasets and scripts are organized to facilitate inspection and reproduction of the simulation and empirical QRF analyses.
 
@@ -96,7 +106,7 @@ To reproduce an empirical analysis:
 Random seeds are specified in the analysis scripts where applicable to support reproducibility.
 
 
-## 5. Data Sources and Citation
+## 6. Data Sources and Citation
 
 The empirical analyses use citizen science phenological observations and derived climatic indicators. Details of the data sources, processing procedures, CSCI calculations, and model configurations are provided in the accompanying manuscript.
 
