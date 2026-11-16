@@ -17,8 +17,8 @@ The repository includes simulated datasets, species-specific climate and phenolo
 ├── QRF_phenology_analysis.R
 │
 ├── Simulation/
-│   ├── [Simulated grid dataset]
-│   └── [Cross-region QRF analysis script]
+│   ├── grid_for_QRF_analysis_overlapping_regions.csv
+│   └── QRF_simulation_analysis.R
 │
 └── Data/
     ├── Hyla_chinensis/
