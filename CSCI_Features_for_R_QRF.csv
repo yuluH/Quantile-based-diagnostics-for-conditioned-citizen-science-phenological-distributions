@@ -1,3 +1,0 @@
-﻿This file serves as a demonstration of the input example code for the run_qrf_analysis.R. Please organize the observational records and CSCI according to the specified format.,,,,,,,,,,,,,,
-ID,latitude,longitude,time_observed_at,DOY,tmean_60d_std,n_low_below_p10_150d,n_low_below_p10_120d,n_high_over_p90_180d,n_low_below_p10_90d,n_low_below_p10_60d,n_high_over_p90_120d,n_low_below_p10_180d,n_high_over_p90_150d,tmean_90d_p10_low
-HC01,23.63803667,120.5201733,2021/4/29,119,2.530304779,37,36,0,12,2,0,37,0,17.31202
