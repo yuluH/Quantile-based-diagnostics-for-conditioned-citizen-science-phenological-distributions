@@ -128,13 +128,13 @@ set.seed(42)
   qrf_models[[reg]] <- qrf_model
   qrf_train_results[[reg]] <- df_result
 
-  cat("✅ Finished:", reg, "\n")
+  cat("Finished:", reg, "\n")
 }
 
 # ---- Combine all in-sample results ----
 df_qrf_train_results <- bind_rows(qrf_train_results)
 
-cat("\n✅ All five QRF models trained successfully!\n")
+cat("\nAll five QRF models trained successfully!\n")
 cat("Combined result rows:", nrow(df_qrf_train_results), "\n")
 
 # ---- Preview ----
@@ -285,7 +285,7 @@ df_center_validation_predictions <- bind_rows(
   bind_rows(center_prediction_results)
 )
 
-cat("\n✅ Center-trained in-sample + cross-region validation completed!\n\n")
+cat("\nCenter-trained in-sample + cross-region validation completed!\n\n")
 print(df_center_validation_metrics)
 
 # =========================================
@@ -537,7 +537,7 @@ df_upper_left_validation_predictions <- bind_rows(
   bind_rows(upper_left_prediction_results)
 )
 
-cat("\n✅ Upper-left-trained in-sample + cross-region validation completed!\n\n")
+cat("\nUpper-left-trained in-sample + cross-region validation completed!\n\n")
 print(df_upper_left_validation_metrics)
 
 # =========================================
@@ -663,7 +663,7 @@ df_lower_right_validation_predictions <- bind_rows(
   bind_rows(lower_right_prediction_results)
 )
 
-cat("\n✅ Lower-right-trained in-sample + cross-region validation completed!\n\n")
+cat("\nLower-right-trained in-sample + cross-region validation completed!\n\n")
 print(df_lower_right_validation_metrics)
 
 # =========================================
@@ -789,7 +789,7 @@ df_lower_left_validation_predictions <- bind_rows(
   bind_rows(lower_left_prediction_results)
 )
 
-cat("\n✅ Lower-left-trained in-sample + cross-region validation completed!\n\n")
+cat("\nLower-left-trained in-sample + cross-region validation completed!\n\n")
 print(df_lower_left_validation_metrics)
 
 # =========================================
@@ -1080,7 +1080,7 @@ ggsave(
   height = 7
 )
 
-cat("✅ Five-region DOY histogram saved as PNG and PDF.\n")
+cat("Five-region DOY histogram saved as PNG and PDF.\n")
 
 # ======================================================
 # Figure: Simulated climatic-state grid +
