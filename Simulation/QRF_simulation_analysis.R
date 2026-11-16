@@ -1,6 +1,6 @@
 # ============================================================
 # Quantile Regression Forest simulation analysis
-# Standard R / RStudio script (no Google Colab dependency)
+# Standard R / RStudio script 
 # ============================================================
 
 # Block 1 — Set up the R environment and load the simulation data
